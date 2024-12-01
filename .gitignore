@@ -1,0 +1,6 @@
+model/engine
+model/onnx
+bin/
+build/
+*.mp4
+*.avi

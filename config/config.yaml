@@ -1,0 +1,14 @@
+%YAML:1.0
+---
+onnx_path: "./model/onnx/yolov10n.onnx"
+engine_path: "./model/engine/yolov10n-fp32.engine"
+output_path: "./results"
+log_level: 5 # 0:FATAL, 1:ERROR, 2:WARN, 3:INFO, 4:VERBOSE, 5:DEBUG
+device_type: 1 # 0:CPU, 1:GPU
+precision_type: 1 # 0:FP32, 1:FP16, 2:INT8
+width: 640
+height: 640 # 640x640 is the default input size of yolov10n
+num_classes: 8
+conf_threshold: 0.3
+nms_threshold: 0.45
+dataset_type: 0 # 0: COCO, 1: Bdd100k...

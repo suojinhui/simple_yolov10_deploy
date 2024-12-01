@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/local/include/opencv4",
+                "/usr/local/cuda/include",
+                "/home/suojinhui/TensorRT-10.5.0.18/include",
+                "/usr/include/x86_64-linux-gnu",
+                "/home/suojinhui/jetson-multimedia-api/include",
+                "/usr/local/libyuv/include"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
