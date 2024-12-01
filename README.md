@@ -3,6 +3,9 @@
 ## 介绍
 
 yolov10_v4l2_tensorrt_deploy基于v4l2_camera和tensorrt实现了yolov10目标检测，并通过opencv输出到屏幕。
+![效果图](/docs/image1.png)
+
+推理速度3ms/帧左右，完全满足实时性要求。
 
 ## 依赖
 
